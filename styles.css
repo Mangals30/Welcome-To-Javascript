@@ -1,0 +1,39 @@
+
+.main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18rem;
+    width: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15rem;
+    white-space: pre;
+    flex-wrap: wrap;
+    
+    
+}
+.div1,.div2,.div3 {
+    display: flex;
+    margin-top: 1rem;
+    
+}
+.sub-div {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+    animation: landSmoothly 0s infinite;
+    animation-duration: 3s;
+}
+@keyframes landSmoothly {
+    0% {
+        opacity: 0;
+    }
+    
+    
+    100% {
+        opacity: 1;
+        
+    }
+}
